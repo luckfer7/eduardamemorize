@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --ivory: #FDFCE8;
+    --dun: #E2CEB1;
+    --lion: #C7A07A;
+    --caramel: #AB7843;
+    --roasted: #6d3914;
+    --expresso: #4C2B08;
+}
+
+body {
+    
+    background-color:var(--expresso);
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+}
+
+.first-section {
+    background-image: url("/imgs/img5.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.text__container {
+    position: absolute;
+    text-align: center;
+}
+
+.text__container h1, h2, span {
+    color: var(--expresso);
+}
+
+.second__section {
+    background-image: url("/imgs/testura.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second__section-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+
+.second__section-container--text h2 {
+    color: var(--ivory);
+}
+
+.third__section {
+    background-color: var(--dun);
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third__section-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+
+.third__section-container--text h2 {
+    color: var(--expresso);
+}
+
+.fourth__section {
+    background-image: url("/imgs/textura-dois.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth__section-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.fourth__section-container--text {
+    width: 40%;
+    padding: 2em;
+}
+
+.fourth__section--title {
+    font-size: 62px;
+    color: var(--expresso);
+}
+
+.fourth__section--subtitle {
+    font-size: 32px;
+    color: var(--expresso);
+}
+
+.fifth__section {
+    background-color: var(--dun);
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifth__section-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+
+.fifth__section-container--title {
+    font-size: 40px;
+    margin-bottom: 0.8em;
+    color: var(--expresso);
+}
+
+.fifth__section-container--text{
+    text-align: center;
+    color: var(--expresso);
+    border: 2px solid var(--caramel);
+    border-radius: 35px;
+    padding: 0.2em 0.5em;
+    font-size: 32px;
+    background-color: var(--ivory);
+    margin-bottom: 0.3em;
+}
+
+.sexth__section {
+    background-image: url("/imgs/testura.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sexth__section-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+
+.sexth__section-container--text h2 {
+    color: var(--ivory);
+    margin-bottom: 0.5em;
+}
+
+a {
+    text-decoration: none;
+    color: var(--ivory);
+    border: 1px solid var(--ivory);
+    padding: 0.5em 1em;
+    border-radius: 35px;
+}
+
+.sexth__section-container--btns {
+    display: flex;
+     justify-content: center;
+     padding: 10px;
+    gap: 20px;
+}
+
+.sexth__section-container--btns img {
+    width: 15px;
+    height: 15px;
+    background-color: var(--ivory);
+    color: var(--expresso);
+}
