@@ -22,12 +22,19 @@ html, body {
 
 h1 {
     font-family: "Playfair Display", serif;
-    color: #ffffff;
 }
 
 h2 {
     font-family: "Montserrat", sans-serif;
-    color: #ffffff;
+}
+
+span {
+    font-family: "Montserrat", sans-serif;
+    color: #f3d9a4;
+    text-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.9),
+    0 0 8px rgba(255, 210, 120, 0.7),
+    0 0 16px rgba(248, 174, 48, 0.5);
 }
 
 .first-section {
@@ -47,13 +54,22 @@ h2 {
     margin-top: 200px;
 }
 
-.text__container h1, h2, span {
+.text__container h1, h2 {
     color: #f3d9a4;
-  text-shadow:
+    text-shadow:
     0 2px 4px rgba(0, 0, 0, 0.9),
     0 0 8px rgba(255, 210, 120, 0.7),
     0 0 16px rgba(255, 190, 80, 0.5);
     
+}
+
+.text__container--destaque {
+    color: #f3d9a4;
+    text-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.9),
+    0 0 8px rgba(255, 210, 120, 0.7),
+    0 0 16px rgba(248, 174, 48, 0.5);
+    font-size: 2.2rem;
 }
 
 .second__section {
@@ -97,7 +113,11 @@ h2 {
 }
 
 .third__section-container--text h2 {
-    color: var(--expresso);
+    color: #f3d9a4;
+    text-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.9),
+    0 0 8px rgba(255, 210, 120, 0.7),
+    0 0 16px rgba(255, 190, 80, 0.5)
 }
 
 .fourth__section {
@@ -261,11 +281,11 @@ a {
     }
 
     .fourth__section--title {
-        font-size: 1.2rem;
+        font-size: 2.2rem;
     }
 
     .fourth__section--subtitle {
-        font-size: 1.2rem;
+        font-size: 1.8rem;
     }
 
     .fifth__section {
@@ -293,5 +313,9 @@ a {
 
     .sexth__section-container--img {
         display: none;
+    }
+
+    .sexth__section-container--text {
+        text-align: center;
     }
 }
