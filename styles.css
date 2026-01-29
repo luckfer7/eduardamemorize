@@ -227,11 +227,17 @@ a {
     gap: 20px;
 }
 
+.sexth__section-container--btns a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .sexth__section-container--btns img {
     width: 15px;
     height: 15px;
-    background-color: var(--ivory);
-    color: var(--expresso);
+    background-color: var(--expresso);
+    color: var(--ivory);
 }
 
 
